@@ -1,0 +1,3 @@
+// Shared site configuration. Kept separate from the vendored jQuery filename
+// so pages can load SITE without loading a duplicate jQuery library.
+var SITE = window.SITE = {name:"Nexora",tagline:"AI-powered intelligence for modern teams",ver:"2.0.0-beta-final",pages:[["Home","index.html"],["Dashboard","admin.html"],["Blog","blog.html"],["Community","contact.html"],["Tools","./tools.html#"]],colors:["#8b5cf6","#6366f1","#22d3ee","#ec4899"],loaderMs:3200,popupDelay:2200,announce:"✨ Nexora 2.0 is here — now with 10x more AI — Supercharge your workflow today →",adminPassword:"admin123",apiKey:"sk_live_DEFINITELY_NOT_A_REAL_KEY_1234567890",taxRate:"0.18",currency:"$",year:2024};
